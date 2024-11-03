@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+}
+
+button {
+    background-color: red;
+    color: white;
+    width: 100%;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.image-container {
+    width: 100%;
+    height: 90%;
+}
+
+.left-col {
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.right-col {
+    background-color: green;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+img {
+    margin: 20px;
+    width: 90%;
+    height: 70%;
+    display: block;
+}
